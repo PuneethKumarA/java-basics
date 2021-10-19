@@ -9,7 +9,12 @@ public class DebugDemo {
 		
 		System.out.println("The sum is --"+sum);
 		
-		throw new NullPointerException();
+		for(int a=0; a<5; a++) {
+			int f = a + 5 * 3;
+			System.out.println("The no is --"+f);
+		}
+		
+		//throw new NullPointerException();
 	}
 
 }
